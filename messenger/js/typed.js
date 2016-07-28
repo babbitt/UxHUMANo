@@ -22,7 +22,7 @@
 
 $(document).ready(function(){
         $("#bylinetyped").typed({
-            strings: [ "<s>America</s>", "human interaction", "messenger services"],
+            strings: [ "<s>America</s>", "human interaction"],
             typeSpeed: 20,
             backDelay: 2000,
             backSpeed: -10000,
