@@ -1,0 +1,45 @@
+body{
+	overflow: hidden;
+}
+#backgrounds{
+	-webkit-filter: blur(5px);
+	-moz-filter: blur(5px);
+	-o-filter: blur(5px);
+	-ms-filter: blur(5px);
+	filter: blur(5px);
+	height: 100%;
+	width: 100%;
+	z-index: 1;
+	position: absolute;
+	top: 0%;
+}
+.bgphoto{
+	height: 100%;
+	width: 100%;
+}
+#content {
+	z-index: 5;
+	top: 0;
+	position: relative;
+}
+#blackbg{
+	background-color: rgba(38, 38, 38, 0.5);
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	z-index: 2;
+}
+.white{
+	color: white;
+}
+button{
+	margin: 3px;
+	color: #78CDD7;
+	background-color: #FAF3DD;
+}
+h4{
+	color: #D0D6B5
+}
+h5 {
+	color: #78CDD7;
+}
